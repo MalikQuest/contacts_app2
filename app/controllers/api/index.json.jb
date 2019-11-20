@@ -1,0 +1,4 @@
+@contact.map do |contact|
+  render partial: "contact.json.jb", locals {contact: contact}
+end 
+
